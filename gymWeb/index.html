@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            color: antiquewhite;
+            font-family: "Playfair Display", serif;
+            margin: 0;
+            padding: 0;
+            background: url('gp.jpg') ;
+            background-size: cover;
+        }
+
+        .left {
+            position: absolute;
+            left: 25px;
+            top: 20px;
+            display: inline-block;
+          
+        }
+        .left div {
+            line-height: 15px;
+            font-size: 15px;
+            text-align: center;
+        }
+        .left img {
+            width: 40px;
+        }
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+          
+        }
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+           
+        }
+
+
+        .navbar {
+            display: inline;
+        }
+        .navbar li {
+            font-size: 20px;
+            color: wheat;
+            display: inline; 
+        }
+        .navbar li a {
+            color: wheat;
+            text-decoration: none;
+            padding: 34px 20px;
+        }
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: gray;
+        }
+        .container {
+            font-family: "Playfair Display", serif;
+            margin: 0 auto;
+            background-color: black;
+            color: azure;
+            padding: 20px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            width: 33%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            right: 25px; 
+            bottom: 20px; 
+        }
+        
+        
+        .container:hover {
+            background-color: gray;
+        }
+        .btn {
+            font-family: "Playfair Display", serif;
+            margin: 11px auto;
+            background-color: black;
+            color: aliceblue;
+            padding: 3px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background-color: gray;
+        }
+        
+    .form-group input{
+        font-family: "Playfair Display", serif;
+text-align: center;
+display: block;
+width: 508px;
+padding: 1px;
+border: 2px solid black;
+margin: 3px auto;
+font-size: 20px;
+border-radius: 8px;
+        }
+        .container h3{
+text-align: center;
+        }
+        .container button{
+display: block;
+width: 74%;
+margin: 20px auto;
+}    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="d.png" alt="">
+            <div>Pratik Fitness</div>
+        </div>
+ 
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>  
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+   
+    <div class="container">
+      <h3>Join the best GYM in Pune</h3>
+      <form action="noaction.php">
+        <div class="form-group"><input type="text" name="" placeholder="Enter the name"></div>
+        <div class="form-group"><input type="text" name="" placeholder="Enter the age"></div>
+        <div class="form-group"><input type="text" name="" placeholder="Enter the gender"></div>
+
+        <div class="form-group"><input type="text" name="" placeholder="Enter the locality"></div>
+<button class="btn">submit</button>
+
+    </form>
+      
+    </div>
+</body>
+</html>
